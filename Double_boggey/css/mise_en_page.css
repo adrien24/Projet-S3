@@ -1,0 +1,740 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Volkhov&display=swap');
+
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+.background {
+    background: url(../img/fond.jpg) no-repeat;
+    background-size: cover;
+    filter: ;
+
+}
+
+body > div.background > div.accueil > header > a > img, body > div.background2 > div > header > a > img{
+    width: 68%;
+}
+
+.navbar{
+padding: 0;
+}
+
+
+
+.background > header {
+    margin-top: 15px;
+}
+
+body > .background > div > .h-100 {
+    height: 40% !important;
+    padding-top: 141px;
+}
+
+
+body > .background > div > div > h1 {
+    width: 47%;
+}
+
+
+body > .background > div > div > h1 > span {
+    border-bottom: white solid 0.2vw;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4%;
+}
+
+body > .background > a {
+    width: 14%;
+    margin-left: 42%;
+    margin-right: 43%;
+    margin-top: 5%;
+}
+
+
+.btn-dark {
+    background: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+body > div.renseignement.row > div.gauche.col-lg-6.col-12 > form > div > fieldset > a {
+    background-image: linear-gradient(60deg, #E74966, #BF0426);
+}
+
+body > div.renseignement.row > div.droite.col-lg-6.col-12 > img {
+    margin-bottom: 15%;
+}
+
+
+.Decouvrir {
+    margin-top: 6%;
+}
+
+body > .background > div.Decouvrir > a:nth-child(1) {
+    margin-left: 46.8%;
+    margin-right: auto;
+}
+
+body > div.background > div.Decouvrir > a:nth-child(3) > img{
+    width: 5%;
+    margin-left: 46.5%;
+    margin-right: auto;
+
+
+}
+
+body > .background > div.espaceAdhérents.row {
+    margin-top: 10%;
+}
+
+body > div.background > div.espaceAdhérents.row > div:nth-child(1) > div > h2 {
+    padding-left: 11%;
+    border-bottom: white solid 2px;
+    width: 25vw;
+    padding-bottom: 2%;
+}
+
+body > div.background > div.espaceAdhérents.row > div:nth-child(1) > div > p {
+    padding-left: 15%;
+    padding-top: 4%;
+    width: 70%;
+}
+
+#container  > div {
+    margin-top: 7%;
+    margin-bottom: 14%;
+}
+
+#container > div > form > input {
+    border: white solid 1px;
+    width: 87%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    }
+
+#container  > div > form > label:nth-child(5) {
+    padding-top: 8%;
+    margin-bottom: 1%;
+}
+
+#container > div > form > label > b {
+    margin-bottom: 1%;
+}
+
+
+#container  > div > label {
+    padding-left: 5%;
+    padding-right: 61%;
+    padding-top: 5%;
+}
+
+#container  > div > a:nth-child(4) {
+    padding-right: 35%;
+    margin-top: 5%;
+}
+
+#container  > div > a {
+    color: white;
+}
+body > div:nth-child(2) > div.col-lg-4.col-12 > img{
+    width: 45%;
+}
+body > div:nth-child(2) > div > img{width: 45%}
+
+#container  > div > a.btn.btn-dark {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 26%;
+}
+
+
+#container  > div > a.btn.btn-dark {
+    background-image: linear-gradient(60deg, darkgreen, forestgreen);;
+}
+
+body > .background > div.espaceAdhérents.row > div.row.bg-white.d-flex.justify-content-center {
+    margin-top: 10%;
+    width: 100%;
+}
+
+body > .background > div.espaceAdhérents.row > div:nth-child(2) {
+    padding-right: 0;
+}
+
+
+body > div.row.bg-white {
+    margin-top: 5%;
+}
+
+body > div.row.bg-white > div {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+body > div.row.bg-white > div.col-lg-12 > img {
+    width: 100%
+}
+
+body > div.vie.row.bg-white {
+    margin-top: 0;
+    padding-top: 5%;
+
+}
+
+body > div.vie.row > img {
+    position: relative;
+    left: 5%;
+    width: 5%;
+    z-index: 1;
+}
+
+body > div.vie.row > h2 {
+    padding-left: 2%;
+    z-index: 10;
+}
+
+body > div.vie.row.bg-white > p {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+body > div.vie.row.bg-white > h3 {
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+body > div:nth-child(2){
+    background-color: #F2F2F2;
+}
+
+
+/*slider*/
+.slider, .slider1 {
+    max-width: 100%;
+    margin: 80px auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+.slider .left-slide, .slider .right-slide, .slider1 .left-slide1, .slider1 .right-slide1 {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    color: #ffffff;
+    font-size: 1.2vw;
+    top: 85%;
+    cursor: pointer;
+    margin-top: -1%;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.slider .left-slide:hover, .slider .right-slide:hover, .slider1 .left-slide1:hover, .slider1 .right-slide1:hover  {
+    box-shadow: 0px 0px 10px black;
+    background-color: #29a8e2;
+}
+
+.slider .left-slide, .slider1 .left-slide1 {
+    left: 47%;
+    opacity: 72%;
+    z-index: 10;
+}
+
+.slider .right-slide, .slider1 .right-slide1 {
+    right: 47%;
+    opacity: 82%;
+}
+
+.slider .slider-items .item img, .slider1 .slider1-item1s .item1 img {
+    width: 79%;
+    display: block;
+    animation: zoom 1s ease;
+}
+
+
+.slider .slider-items .item, .slider1 .slider1-item1s .item1 {
+    display: none;
+    position: relative;
+}
+
+.slider .slider-items .item .caption, .slider1 .slider1-item1s .item1 .caption {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+
+}
+
+.slider .slider-items .item.active, .slider1 .slider1-item1s .item1.active  {
+    display: block;
+}
+
+#slider > div > div.slider-items > div.item.active > div > div > h2, #slider1 > div > div.slider1-item1s > div.item1.active > div > div > h2 {
+    margin-top: 5%;
+}
+
+#slider > div > div.slider-items > div.item.active > div > div > p, #slider1 > div > div.slider1-item1s > div.item1.active > div > div > p {
+    margin-top: 4%;
+}
+
+
+
+/*slider FIN*/
+
+
+body > div:nth-child(6) > div > img {
+    width: 70%;
+}
+
+body > div:nth-child(6) > div > h4 {
+    position: relative;
+    bottom: 25%;
+    color: white;
+}
+
+body > div:nth-child(6) > div > div {
+    position: relative;
+    left: 25%;
+    bottom: 23%;
+
+}
+
+body > div:nth-child(6) > a {
+    color: white;
+    margin-right: 5%;
+    background-image: linear-gradient(60deg, #E74966, #BF0426);
+    margin-bottom: 5%;
+}
+
+body > div.programme.row {
+    background: url("../img/fond_programme.png");
+    background-size: cover;
+
+
+}
+
+body > div.programme.row > div.gauche.col-lg-6.col-12 > h2 {
+    margin-left: 5%;
+    margin-top: 11%;
+}
+
+body > div.programme.row > div.gauche.col-lg-6.col-12 > p {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 11%;
+}
+
+body > div.programme.row > div > h2, body > div.programme.row > div > p, body > div.programme.row > div > h3 {
+    color: white;
+}
+
+body > div.programme.row > div.droite.col-6 > h3:nth-child(1) {
+    margin-top: 15%;
+}
+
+body > div.programme.row > div.droite.col-lg-6.col-12 > h3 {
+    margin-top: 5%;
+    margin-left: 0;
+    width: 30%;
+}
+
+body > div.programme.row > div.droite.col-lg-6.col-12 > h3:nth-child(5) {
+    width: 39%;
+}
+
+
+body > div.programme.row > div.droite.col-lg-6.col-12 > h3{
+    border-bottom: #BF0426 solid 0.2vw;
+    z-index: 20;
+    width: 26%;
+    padding-top: 4%;
+}
+
+body > div.programme.row > div.droite.col-lg-6.col-12 > h3:nth-child(1) {
+    margin-top: 15%;
+}
+
+
+body > div.programme.row > div.droite.col-lg-6.col-12 > p:nth-child(6) {
+    margin-bottom: 5%;
+}
+
+body > div.programme.row > div.droite.col-lg-6.col-12 > div > a {
+    margin-top: 20%;
+    margin-bottom: 19%;
+    padding-left: 49%;
+    position: relative;
+    right: 12%;
+    background-image: linear-gradient(60deg, #E74966, #BF0426);
+}
+
+body > div.renseignement.row > div.droite.col-lg-6.col-12 {
+    background: url("../img/fonddroit.png") no-repeat;
+    background-size: cover;
+}
+
+body > div.frequentation.row > h2.col-12.d-flex.justify-content-center.text-white {
+    background-color: #496442;
+    margin-bottom: 0;
+    padding-top: 3%;
+
+}
+
+body > div.frequentation.row > h2.col-12.d-flex.justify-content-center.text-white > p {
+    border-bottom: white solid 1px;
+    padding-bottom: 3%;
+    padding-right: 17%;
+    padding-left: 20%;
+    }
+
+body > div.frequentation.row > h2.col-12.d-flex.justify-content-center.text-white, body > footer > p {
+    margin-top: 5%;
+}
+
+
+body > footer > h2 > p {
+    border-bottom: black solid 1px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+
+body > footer > img.col-lg-3.col-6.d-flex.justify-content-center.h-25 {
+    width: 10%;
+}
+
+
+
+
+/*Adherents*/
+
+
+body > .background2{
+    background: url("../img/fond_adherents.png") no-repeat;
+}
+
+body > div.donnée.row > div:nth-child(1){
+    background-color: #F2F2F2;
+    border-radius: 5%;
+}
+
+body > div.donnée.row > div:nth-child(2) > a{
+background-image: linear-gradient(60deg, #E74966, #BF0426);
+}
+
+
+
+/*Fin Adherents*/
+
+/*Agenda*/
+
+body > .background3{
+    background: url("../img/agenda_fond.png") no-repeat;
+}
+
+body > div.row.agenda > h2{
+    background-color: #BF0426;
+}
+
+body > div.renseignement.row.mt-5.mr-5 > div > form > div > fieldset > div > div > input{
+  color: #BF0426!important;
+    font-family: "Russo One",sans-serif;
+    background-color: white!important;
+}
+
+
+
+
+/*Fin Agenda*/
+
+
+/*F.A.Q*/
+
+
+body > div > div > div > form > div > input{
+    background-color: rgba(0,0,0,0)!important;
+    border: none!important;
+    color: white!important;
+}
+
+body > div > div > div > form > div > div > button{
+    background-color: rgba(0,0,0,0)!important;
+    color: white!important;
+}
+
+body > div.adhesion.row.mt-0.bg-white.d-flex.mr-lg-5.pr-lg-5.pl-lg-5.mt-lg-0.ml-lg-5{
+    background-color: white;
+    position: relative;
+    margin-top: -2%!important;
+    border-radius: 1%;
+    box-shadow: 1px 1px 12px #555;
+}
+
+
+
+/*Fin F.A.Q*/
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+
+
+    body > div.adhesion.row.mt-0.bg-white.d-flex.mr-lg-5.pr-lg-5.pl-lg-5.mt-lg-0.ml-lg-5 > img, #navigation > ul > li:nth-child(8) > a > img{
+        display: none;
+    }
+
+    #navigation{
+        background: url("../img/menu.png");
+    }
+
+    #navigation > ul > li{
+        padding-left: 5%;
+    }
+
+    #navigation > ul > li:nth-child(7) > a{
+        padding-bottom: 37%;
+    }
+
+    #navigation > ul > li > a{
+        padding-bottom: 9%;
+
+    }
+
+    .background4{
+         background-color: #496442;
+     }
+
+    #navigation > ul > li:nth-child(6) > a{
+        border: none!important;
+    }
+
+    body > div:nth-child(2) > div.col-lg-4.col-12 > img{
+        width: 28%;
+    }
+
+    body > footer > div:nth-child(9) > p{
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+    }
+
+
+    #navigation > ul > li:nth-child(7) > a > img{
+        display: none;
+    }
+
+    body > div.background > div.Decouvrir > a:nth-child(3) > img{
+        width: 17%;
+        margin-left: 39.5%;
+    }
+
+    p, #slider > div > div.slider-items > div.item.active > div > div > h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    body > div.frequentation.row > h2.col-12.d-flex.justify-content-center.text-white > p, body > div.renseignement.row > div.droite.col-lg-6.col-12 > p:nth-child(2), body > footer > div.col-12.d-flex.justify-content-center.form-inline > label {
+        text-align: center;
+    }
+
+    #container  > div > label {
+        padding-left: 0!important;
+    }
+
+    body > div.background > div.espaceAdhérents.row > div:nth-child(1) > div > p {
+        padding-left: 5%;
+    }
+
+    body > div:nth-child(3) > p, body > div:nth-child(5) > p {
+        padding-left: 5% !important;
+        padding-right: 12% !important;
+    }
+
+    #slider1 > div, #slider > div {
+        padding-bottom: 24%;
+    }
+
+    #slider1 > div > div.left-slide1 {
+        left: 33%;
+        margin-top: 3%;
+    }
+
+    #slider1 > div > div.right-slide1 {
+        right: 40%;
+        margin-top: 3%;
+    }
+
+    #slider1 > div > div.right-slide1 {
+        margin-top: -103%;
+        right: 5%;
+    }
+
+    #slider1 > div > div.left-slide1{
+     margin-top: -103%;
+     left: 5%;
+ }
+
+    #slider1 > div > div.slider1-item1s > div.item1.active > div > img{
+        flex: none;
+        margin-left: 9%;
+        height:100vh;
+    }
+
+
+    body > div.background > div.accueil > div > h1 {
+        width: 88%;
+    }
+
+
+    body > div.background > a {
+        width: 26%;
+        margin-left: 36%;
+        margin-right: 43%;
+    }
+
+    body > div.background > div.Decouvrir {
+        margin-top: 40%;
+    }
+
+    body > div.background > div.Decouvrir > a:nth-child(1), body > div.background > div.Decouvrir > a:nth-child(2) > img {
+        width: 18%;
+        margin-left: 38.5%;
+        margin-right: auto;
+    }
+
+    body > div.Decouvrir > a:nth-child(1) {
+        margin-left: 37.8%;
+        margin-right: auto;
+    }
+
+    #navigation {
+        background-color: white;
+        margin-top: 0;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    body > div.background > div.espaceAdhérents.row > div:nth-child(1) > div > h2 {
+        width: 60%;
+    }
+
+    body > div.background > div.espaceAdhérents.row > div:nth-child(1) > div > p {
+        width: 90%;
+    }
+
+    body > div.background > div.espaceAdhérents.row > div:nth-child(2), body > div.programme.row > div.droite.col-lg-6.col-12 > p,#slider1 > div > div.slider1-item1s > div.item1.active > div > div > h2 {
+        margin-left: 5%;
+    }
+
+    body > div.vie.row > img {
+        width: 9%;
+    }
+
+    body > div.programme.row > div.gauche.col-lg-6.col-12 > h2{
+        text-align: center;
+    }
+
+    body > div.programme.row > div.droite.col-lg-6.col-12 > h3:nth-child(1){
+        text-align: center;
+
+    }
+
+
+    body > div.programme.row > div.droite.col-lg-6.col-12 > h3.row.text-white {
+        width: 76%;
+        padding-left: 5%;
+    }
+
+
+    /*slider*/
+    #slider > div > div.left-slide, #slider > div > div.left-slide {
+        left: 5%;
+        top: 23%;
+    }
+    #slider > div > div.slider-items > div.item.active > .row{
+
+    }
+
+    #slider > div > div.slider-items > div.item.active > div > img{
+        width: 83%;
+        margin-left: 9%;
+        margin-right: 9%;
+     flex: none;
+    }
+
+    #slider > div > div.right-slide, #slider > div > div.right-slide {
+        right: 5%;
+        top: 23%;
+    }
+
+    body > footer > div:nth-child(13) > p {
+        padding-left: 7% !important;
+        padding-right: 15% !important;
+    }
+
+    body > footer > div:nth-child(13) > p > a > img {
+        width: 17%;
+        margin-left: 2%;
+    }
+
+    body > footer > div.col-lg-3.col-md-6.col-12.d-flex.justify-content-center.h-25 > img{
+        padding-bottom: 12%;
+    }
+
+    body > footer > div.logo.col-12.d-flex.justify-content-center.h-25 > img{
+        margin-top: 11%;
+        margin-bottom: 5%;
+    }
+
+    body > footer > div.btn.col-2.text-white.d-flex.justify-content-center.ml-auto.mr-auto{
+        margin-top: 3%!important;
+        margin-bottom: 7%!important;
+    }
+
+    body > footer > a{
+       margin-bottom: 2%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 991px) {
+
+    #slider > div {
+        padding-bottom: 10%;
+    }
+
+    #slider > div > div.left-slide {
+        left: 39% !important;
+        margin-top: 5%;
+    }
+
+    #slider > div > div.right-slide {
+        right: 45%;
+        margin-top: 5%;
+    }
+}

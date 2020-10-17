@@ -1,0 +1,209 @@
+h1, h2, h3 {
+    font-family: 'Russo One', sans-serif;
+}
+
+p, a {
+    font-family: 'Volkhov', serif;
+}
+
+
+body > .background > p, body > a {
+    font-family: 'Volkhov', serif;
+}
+
+body > .background > div > div > h1{
+    font-size: 6vw !important;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+body > .background > div > div > h1 > span{
+    font-family: 'Volkhov', serif;
+}
+
+body > .background > div > h2{
+    font-size: 2vw;
+    font-family: 'Volkhov', serif;
+}
+
+body > .background > a{
+    font-size: 1.5vw !important;
+    font-family: 'Volkhov', serif;
+}
+
+body > .background > div.Decouvrir > a:nth-child(1){
+    font-family: 'Volkhov', serif;
+    font-size: 1vw;
+    color: white;
+}
+
+body > .background > div.espaceAdhérents.row > div.col-6.d-flex.justify-content-center > div {
+    color: white;
+}
+
+body > div.background > div.espaceAdhérents.row > div:nth-child(1) > div > h2{
+    font-size: 2vw;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+body > div.background > div.espaceAdhérents.row > div:nth-child(1) > div > p{
+    color: white;
+    font-family: 'Volkhov', serif;
+}
+
+#container > div > form > input{
+    color: white;
+}
+
+#container > div > form > label > b {
+    font-weight: normal !important;
+    color: white;
+    font-family: 'Volkhov', serif;
+}
+
+#container  > div > label{
+    font-weight: normal !important;
+    color: white;
+    font-family: 'Volkhov', serif;
+}
+
+#container  > div > a {
+    color: white;
+}
+
+body > div.row.bg-light > div > h3 {
+    font-family: 'Russo One', sans-serif;
+}
+
+body > div.row.bg-light > div > p {
+    font-family: 'Volkhov', serif;
+}
+
+body > div.vie.row > h2{
+    font-family: 'Russo One', sans-serif;
+}
+
+body > div.vie.row.bg-light > p{
+    font-family: 'Volkhov', serif;
+}
+
+body > div.vie.row.bg-light > h3{
+    font-family: 'Russo One', sans-serif;
+}
+
+body > div.vie.row.bg-light > p{
+    font-family: 'Volkhov', serif;
+}
+
+#slider > div > div.slider-items > div.item.active > div > div > h2, #slider1 > div > div.slider1-item1s > div.item1.active > div > div > h2{
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5vw;
+}
+
+#slider > div > div.slider-items > div.item.active > div > div > p, #slider1 > div > div.slider1-item1s > div.item1.active > div > div > p{
+    font-family: 'Volkhov', serif;
+}
+
+body > div:nth-child(6) > div > h4{
+    font-size: 1vw;
+    font-family: 'Russo One', sans-serif;
+}
+
+body > div.programme.row > div > h2, body > div.programme.row > div > p, body > div.programme.row > div > h3 {
+    color: white;
+}
+
+body > div.programme.row > div.droite.col-lg-6.col-12 > h3 > span{
+    font-family: 'Volkhov', serif;
+}
+
+body > div:nth-child(6) > div > div > a {
+    color: white;
+}
+
+body > div.frequentation.row > h2.col-12.d-flex.justify-content-center.text-white > p{
+    font-family: "Russo One",sans-serif;
+}
+
+body > footer > h2 > p{
+    font-family: "Russo One", sans-serif;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+
+    #navigation > ul > li > a{
+        font-family: 'Russo One', sans-serif;
+        font-size: 7vw;
+    }
+    #slider1 > div > div.slider1-item1s > div.item1.active > div > div > h2{
+        font-size: 5vw;
+    }
+    #slider1 > div > div.left-slide1, #slider > div > div.left-slide{
+        font-size: 5vw;
+    }
+
+    #slider1 > div > div.right-slide1, #slider > div > div.right-slide{
+        font-size: 5vw;
+    }
+
+    body > div.background > div.accueil > div > h1{
+        font-size: 11vw !important;
+    }
+
+    body > div.background > div.accueil > h2{
+        font-size: 4vw;
+    }
+
+    body > div.background > a{
+        font-size: 3vw !important;
+    }
+
+    body > div.background > div.Decouvrir > a:nth-child(1){
+        font-size: 4vw;
+    }
+    body > div.Decouvrir > a:nth-child(1){
+        font-size: 4vw;
+    }
+
+    body > div.background > div.espaceAdhérents.row > div:nth-child(1) > div > h2{
+        font-size: 5vw;
+    }
+
+    body > div:nth-child(3) > h3 {
+        font-size: 6vw;
+    }
+
+    #slider > div > div.slider-items > div.item.active > div > div > h2 {
+        font-size: 4.5vw;
+    }
+
+    body > div:nth-child(6) > div > h4 {
+        font-size: 3.5vw;
+    }
+
+    body > div > h2 {
+        font-size: 8vw;
+    }
+
+    body > div:nth-child(8) > h2 {
+        font-size: 6vw;
+    }
+
+    body > div:nth-child(5) > h2 {
+        font-size: 6vw;
+    }
+
+    #slider > div > div.left-slide, #slider > div > div.left-slide{
+        font-size: 5vw;
+    }
+
+    #slider > div > div.right-slide, #slider > div > div.right-slide{
+        font-size: 5vw;
+    }
+
+
+
+}
+

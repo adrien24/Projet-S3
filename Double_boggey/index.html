@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Styles Boostrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bibliothèque Jquery avant bibliothèque Javascript Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <!-- Bibliothèque Boostrap Javascript après Jquery -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/typo.css">
+    <link rel="stylesheet" href="css/mise_en_page.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title>Double boggey</title>
+
+
+
+</head>
+<body>
+
+<div class="background">
+    <div class="accueil">
+        <header class="navbar navbar-expand-md navbar-dark">
+
+            <a href="#" class="navbar-brand ml-2 mt-2">
+                <img src="img/logo.png" alt="logo"/>
+            </a>
+
+            <button class="navbar-toggler " data-toggle="collapse" data-target="#navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navigation">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active " href="#">Fil d'actualités</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Nos activités</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Compétitions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="agenda.html">Agenda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Galerie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Qui somme nous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="img/maison.png" alt="logo_maison"></a></li>
+                </ul>
+
+            </div>
+
+
+        </header>
+
+        <div class="d-flex justify-content-center h-100">
+
+            <h1 class="row align-self-center -light display-1 text-white">Double Boggey<span></span></h1>
+
+        </div>
+
+        <h2 class="d-flex justify-content-center text-white">Association de Golfeuses & Golfeurs d’Occitanie</h2>
+    </div>
+
+    <a href="#connexion" class="btn btn-dark">Se connecter</a>
+
+<div class="Decouvrir">
+        <a href="#presentation">Découvrir</a><div id="connexion"></div>
+    <a href="#presentation"><img src="img/fleche.png" alt="flèche"></a>
+    </div>
+
+    <div class="espaceAdhérents row">
+
+        <div class=" col-lg-6 col-12 d-flex justify-content-center">
+            <div class="descritpion">
+                <h2>Espace Adhérents</h2>
+                <p>Accédez à l’espace adhérent de Double Boggey !
+                    Cela vous donne accès à de multiples fonctionnalités.
+                    Inscrivez-vous si vous ne possédez
+                    pas encore de compte !</p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-12 d-flex justify-content-center">
+            <div id="container">
+                <!-- zone de connexion -->
+                <div class="connexion">
+                    <form action="verification.php" method="POST">
+
+                        <label><b>Nom d'utilisateur</b></label></br>
+                        <input type="text" placeholder="" name="username" required>
+                        </br>
+                        <label><b>Mot de passe</b></label></br>
+                        <input type="password" placeholder="" name="password" required>
+
+
+                    </form>
+
+                    <input  type="checkbox" id="reponse-1" name="reponse-1"/>
+                    <label for="reponse-1">Rester connecté</label>
+                    <a href="#">Mot de passe oublié ?</a>
+                    <a href="#" class="btn btn-dark">Se connecter</a>
+                    <a href="#">S'inscrire</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row bg-white">
+    <div id="presentation"></div>
+    <div class="col-lg-4 col-6">
+        <img src="img/interrogation.png" alt="point-interrogation">
+        <h3 class="text-black">Devenir adhérent ?</h3>
+        <p class="text-black">S’inscrire facilement
+            en cliquant ici !</p>
+    </div>
+
+    <div class="col-lg-4 col-6 ">
+        <img class="" src="img/ordi.png" alt="ordi">
+        <h3 class="text-black">Se connecter</h3>
+        <p class="text-black">Tapez votre mot de passe
+            et nom d’utilisateur</p>
+    </div>
+
+
+    <div class="col-lg-4 col-12">
+        <img src="img/groupe.png" alt="groupe">
+        <h3 class="text-black">Bienvenu parmi nous !</h3>
+        <p class="text-black">Bienvenue parmi l’association
+            Double Bogey !</p>
+    </div>
+
+    <div class="col-lg-12">
+        <img src="img/fin_info.png" alt="fin_info">
+    </div>
+</div>
+
+<div class="vie row bg-white">
+    <img  class="h-50" src="img/drapeau.png" alt="drapeau">
+    <h2>Vie de l'association</h2>
+    <p class="col-12">L’association DOUBLE BOGGEY a été constituée et déclarée le 2 août 2004 avec parution au J.O. En
+        février 2019 les
+        membres de Double Boggey ont voulu se doter de nouveaux statuts afin de permettre à leurs dirigeants une
+        organisation adaptée à la taille grandissante de l’association. Les maîtres mots de notre association sont ; Le
+        golf pour tous et un golf convivial.</p>
+
+    <h3>Découvrez ci-dessous les actualités de Double Boggey !</h3>
+</div>
+<div id="slider">
+    <div class="slider">
+        <div class="slider-items">
+            <div class="item active">
+                <div class="row">
+                    <img class=" col-lg-6 col-12 h-50" src="img/slider1.png" alt="premier_image_slider"/>
+                    <div class="texte  col-lg-6 col-12">
+                        <h2>Après un excellent parcours sous le soleil de
+                            janvier nous avons fêté dignement les rois
+                            en Aiguelèze</h2>
+                        <p>Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge blond
+                            qui fume sur son île intérieure, à côté de l"alcôve ovoïde, où les bûches se consument dans
+                            l"âtre, ce qui lui permet de penser à la cænogenèse de l"être dont il est.
+
+                            Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge
+                            blond qui fume sur son île intérieure, à côté de l »alcôve ovoïde, où les bûches se
+                            consument dans l »âtre, ce qui lui permet de penser à la cænogenèse de l »être dont il
+                            est.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <img class=" col-lg-6 col-12 h-50" src="img/slider2.jpg" alt="deuxieme_image_slider"/>
+                    <div class="texte  col-lg-6 col-12">
+                        <h2>C’était la fête de l’association ce vendredi 31
+                            janvier 2020</h2>
+                        <p>Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge blond
+                            qui fume sur son île intérieure, à côté de l"alcôve ovoïde, où les bûches se consument dans
+                            l"âtre, ce.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <img class="col-lg-6 col-12 h-50" src="img/slider3.jpg" alt="troisieme_image_slider"/>
+                    <div class="texte  col-lg-6 col-12">
+                        <h2>Nous avons profité d’un très beau soleil
+                            de février sur le parcours d’Albi Lasbordes</h2>
+                        <p>Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge blond
+                            qui fume sur son île intérieure, à côté de l"alcôve ovoïde, où les bûches se consument dans
+                            l"âtre, ce qui lui permet de penser à la cænogenèse de l"être dont il est question dans la
+                            cause ambiguë entendue à Moÿ, dans un capharnaüm qui, pense-t-il, diminue çà et là la
+                            qualité de son œuvre. Prouvez, beau juge, que le fameux</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- slider controls -->
+        <div class="left-slide"><</div>
+        <div class="right-slide">></div>
+        <!-- slider controls -->
+    </div>
+</div>
+
+
+<div class="vie row bg-white">
+    <img class="h-50" src="img/drapeau.png" alt="drapeau">
+    <h2>Challenges Double-Boggey</h2>
+    <p class="col-12">Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge blond qui
+        fume sur son île intérieure, à côté de l"alcôve ovoïde, où les bûches se consument dans l"âtre, ce qui lui
+        permet de penser à la cænogenèse de l"être dont il est question dans la cause ambiguë entendue à Moÿ, dans un
+        capharnaüm.</p>
+</div>
+
+<div class="row bg-white">
+
+    <div class="col-lg-4">
+        <img src="img/Challenge1.png" alt="point-interrogation">
+        <h4 >Le Challenge des copains du week-end</h4>
+        <div class="lireplus">
+            <a class="col-12 d-flex justify-content-center" href="#">Lire plus </a>
+            <img src="img/Polygone2.png" alt="polygone">
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <img class="" src="img/Challenge2.png" alt="cahllenge_2">
+        <h4 >Des compétitions amicales</h4>
+        <div class="lireplus">
+            <a class="col-12 d-flex justify-content-center" href="#">Lire plus </a>
+            <img src="img/Polygone2.png" alt="polygone">
+        </div>
+    </div>
+
+
+    <div class="col-lg-4">
+        <img src="img/CHallenge3.png" alt="Challenge3">
+        <h4>Le Challenge annuel Pitch & Putt</h4>
+        <div class="lireplus">
+            <a class="col-12 d-flex justify-content-center" href="#">Lire plus </a>
+            <img src="img/Polygone2.png" alt="polygone">
+        </div>
+
+    </div>
+
+    <a class="btn btn-dark ml-auto" href="#">Voir plus</a>
+
+
+</div>
+
+<div class="programme row">
+
+    <div class="gauche  col-lg-6 col-12">
+        <h2>Programme</h2>
+        <p>Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge blond qui fume sur
+            son
+            île intérieure, à côté de l"alcôve ovoïde, où les bûches se consument…</p>
+    </div>
+
+    <div class="droite col-lg-6 col-12">
+        <h3 class="text-white ml-auto mr-auto" style="width: 59%">Lundi 20 Octobre<span></span></h3>
+
+        <p class="text-white ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.</p>
+
+        <h3 class=" text-white ml-auto mr-auto" style="width: 59%;text-align: center">Mardi 25 Octobre <span></span></h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.</p>
+        <h3 class=" text-white ml-auto mr-auto" style="width: 59%; text-align: center">Mercredi 30 Octobre<span></span></h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa.</p>
+
+        <div class="bouton" >
+            <a class="btn btn-dark" href="#">Charger plus</a>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="vie row bg-white">
+    <img class="h-50" src="img/drapeau.png" alt="drapeau">
+    <h2>Quoi de neuf dans le golf ?</h2>
+
+</div>
+
+<div id="slider1">
+    <div class="slider1">
+        <div class="slider1-item1s">
+            <div class="item1 active">
+                <div class="row">
+                    <img class=" col-lg-6 col-12 h-50" src="img/slider1.png" alt="premiere_image"/>
+                    <div class="texte  col-lg-6 col-12">
+                        <h2>Après un excellent parcours sous le soleil de
+                            janvier nous avons fêté dignement les rois
+                            en Aiguelèze</h2>
+                        <p>Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge blond
+                            qui fume sur son île intérieure, à côté de l"alcôve ovoïde, où les bûches se consument dans
+                            l"âtre, ce qui lui permet de penser à la cænogenèse de l"être dont il est.
+
+                            Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge
+                            blond qui fume sur son île intérieure, à côté de l »alcôve ovoïde, où les bûches se
+                            consument dans l »âtre, ce qui lui permet de penser à la cænogenèse de l »être dont il
+                            est.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="row">
+                    <img class=" col-lg-6 col-12 h-50" src="img/slider2.jpg" alt="deuxieme_image"/>
+                    <div class="texte  col-lg-6 col-12">
+                        <h2>C’était la fête de l’association ce vendredi 31
+                            janvier 2020</h2>
+                        <p>Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge blond
+                            qui fume sur son île intérieure, à côté de l"alcôve ovoïde, où les bûches se consument dans
+                            l"âtre, ce.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="row">
+                    <img class=" col-lg-6 col-12 h-50" src="img/slider3.jpg" alt="troisieme_image"/>
+                    <div class="texte  col-lg-6 col-12">
+                        <h2>Nous avons profité d’un très beau soleil
+                            de février sur le parcours d’Albi Lasbordes</h2>
+                        <p>Voyez ce jeu exquis wallon, de graphie en kit mais bref. Portez ce vieux whisky au juge blond
+                            qui fume sur son île intérieure, à côté de l"alcôve ovoïde, où les bûches se consument dans
+                            l"âtre, ce qui lui permet de penser à la cænogenèse de l"être dont il est question dans la
+                            cause ambiguë entendue à Moÿ, dans un capharnaüm qui, pense-t-il, diminue çà et là la
+                            qualité de son œuvre. Prouvez, beau juge, que le fameux</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- slider1 controls -->
+        <div class="left-slide1"><</div>
+        <div class="right-slide1">></div>
+        <!-- slider1 controls -->
+    </div>
+</div>
+
+<div class="renseignement row">
+    <div class="gauche col-lg-6 col-12">
+        <h2 class=" col-12 d-flex justify-content-center" style="text-align: center">Un renseignement ? Contactez-nous !</h2>
+        <form>
+            <div class="row">
+
+
+                <fieldset class="col-12">
+
+                    <div class="row d-flex justify-content-center ">
+                        <div class="form-group col-5 col-lg-6 px-3">
+
+                            <label class=" d-md-block" for="Nom"></label>
+                            <input type="text" name="name" class="form-control"
+                                   placeholder="Nom"
+                            />
+                        </div>
+
+                        <div class="form-group col-5 col-lg-6 px-3">
+                            <label class=" d-md-block" for="Mail"></label>
+                            <input type="email" name="email" class="form-control"
+                                   placeholder="email"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-12 px-3">
+                        <label class="d-md-block" for="msg"></label>
+                        <textarea class="col-12" id="sujet" placeholder="Sujet du message"
+                                  name="sujet_message"></textarea>
+                    </div>
+
+                    <div class="form-group col-12 px-3">
+                        <label class="d-md-block" for="msg"></label>
+                        <textarea class="col-12" id="msg" placeholder="Message *" name="message"
+                                  style="padding-bottom: 5%"></textarea>
+                    </div>
+
+                    <div class="form-group col-12 px-3">
+                        <label class="d-md-block" for="msgad"></label>
+                        <textarea class="col-12" id="msgad" placeholder="Message réservé aux adhérents *" name="message"
+                                  style="padding-bottom: 7%"></textarea>
+                    </div>
+                    <a href="#" class="btn col-6 text-white d-flex justify-content-center ml-auto mr-auto"
+                         style="margin-top: 15%; margin-bottom: 3%">Envoyer
+                    </a>
+
+
+                </fieldset>
+            </div>
+        </form>
+
+    </div>
+
+
+    <div class="droite col-lg-6 col-12">
+        <p class="col-12 d-flex justify-content-center text-white" style="margin-top: 20%">contact@double-boggey.fr</p>
+        <p class="col-12 d-flex justify-content-center text-white">Association de Golfeuses & Golfeurs d’Occitanie</p>
+        <p class="col-12 d-flex justify-content-center text-white">06 18 89 89 07</p>
+
+
+        <h2 class="col-12 d-flex justify-content-center text-white">Anti-spam</h2>
+
+        <img class="col-12 d-flex ml-auto mr-auto justify-content-center w-75" src="img/captcha.png" alt="captcha">
+
+
+    </div>
+</div>
+
+
+<div class="frequentation  row">
+    <h2 class="col-12 d-flex justify-content-center text-white"><p>Taux de
+        fréquentation</p></h2>
+    <h2 class="col-6 d-flex justify-content-center text-white"
+        style="background-color: #496442; padding-top: 3%; padding-bottom: 3%; text-align: center">252 membres</h2>
+    <h2 class="col-6 d-flex justify-content-center text-white" style="background-color: #496442; padding-top: 3%;">
+        +26%</h2>
+</div>
+
+<footer class="row">
+
+    <p class="d-flex col-12 justify-content-center" style="color: #BF0426">Abonnez-vous à notre newsletter pour ne rien
+        manquer de l'actualité du golf.</p>
+
+    <div class="form-group col-lg-3 col-6 ml-auto mr-auto d-flex justify-content-center px-3">
+        <label class="d-md-block" for="Mail"></label>
+        <input type="email" name="email" class="form-control"
+               placeholder="Adresse email"
+        />
+    </div>
+    <div class="col-12  d-flex justify-content-center form-inline">
+        <input  type="checkbox" id="reponse-2" name="reponse-2"/>
+        <label  for="reponse-2"> Oui, je souhaite recevoir les informations de Double Boggey.</label>
+    </div>
+    <div class="btn col-2 text-white d-flex justify-content-center ml-auto mr-auto"
+         style="background-color: #BF0426;margin-top: 1%; margin-bottom: 3%">Valider
+    </div>
+
+    <h2 class="d-flex col-12 justify-content-center text-dark mt-5 pt-5"><p>Nos partenaires</p></h2>
+
+
+
+
+    <div class="photo1 col-lg-3 col-md-6 col-12 d-flex justify-content-center h-25" ><img style="width: 63%" src="img/decath.png" alt="decathlon"></div>
+    <div class="photo2 col-lg-3 col-md-6 col-12 d-flex justify-content-center h-25 "><img  style="width: 55%" src="img/lasmart.png" alt="lasmartines"></div>
+    <div class="photo3 col-lg-3 col-md-6 col-12 d-flex justify-content-center h-25" ><img style="width: 53%" src="img/2005.png" alt="salle du salut"></div>
+    <div class="photo4 col-lg-3 col-md-6 col-12 d-flex justify-content-center h-25" ><img style="width: 53%" src="img/gabriel.png" alt="Saint Gabriel"></div>
+    <div class="photo5 col-lg-6 col-md-6 col-12 d-flex justify-content-center pb-5"><img  style="width: 53%" src="img/aigueleze.png" alt="aigueleze"></div>
+    <div class="photo5 col-lg-6 col-md-6 col-12 d-flex justify-content-center " ><img style="width: 53%" src="img/chateau.png" alt="golf du chateau"></div>
+    <div class="logo col-12 d-flex justify-content-center h-25" style="width: 70%;"><img src="img/logo.png" alt="logo"></div>
+    <div class="col-12 d-flex justify-content-center"><p style="border-bottom: solid 1px black; padding-left: 37%; padding-right: 33%; padding-bottom: 2%">Retrouver nous aussi sur :<a href="#"><img src="img/facebook.png" alt="facebook" style="width: 15%; margin-left: 2%"></a> </p></div>
+    <a href="#" class="col-lg-3 col-md-6 mr-5 ml-5  d-flex justify-content-center text-primary" style="text-align: center">Mention légales</a>
+    <a href="#" class="col-lg-3 col-md-6  d-flex justify-content-center text-primary" style="text-align: center">À propos</a>
+    <a href="#" class="col-lg-3 col-md-6  d-flex justify-content-center text-primary" style="text-align: center">Contactez-nous</a>
+    <a href="#" class="col-lg-3 col-md-6  d-flex justify-content-center text-primary" style="margin-bottom: 5%; text-align: center">FAQ</a>
+
+</footer>
+
+
+<script src="js/slider.js"></script>
+</body>
+</html>
