@@ -493,7 +493,9 @@ body > div.adhesion.row.mt-0.bg-white.d-flex.mr-lg-5.pr-lg-5.pl-lg-5.mt-lg-0.ml-
     box-shadow: 1px 1px 12px #555;
 }
 
-
+body > div.background4{
+    background-color: #496442;
+}
 
 /*Fin F.A.Q*/
 
@@ -529,9 +531,7 @@ body > div.adhesion.row.mt-0.bg-white.d-flex.mr-lg-5.pr-lg-5.pl-lg-5.mt-lg-0.ml-
 
     }
 
-    .background4{
-         background-color: #496442;
-     }
+
 
     #navigation > ul > li:nth-child(6) > a{
         border: none!important;
